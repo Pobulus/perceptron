@@ -1,0 +1,14 @@
+dataSetDir: build/training
+inputConf: build/inputs.conf
+outputConf: build/outputs.conf
+populationCap: 1000
+networkShape:
+    # 1000
+    - 100
+    # - 100
+    # 9
+stagnationThreshold: 0.00001
+topPercentToKeep: 0.01
+# unimplemented
+# restoreNetwork: balanced1.net # build/lastBest.net
+restoreNetwork: lastBest.net
